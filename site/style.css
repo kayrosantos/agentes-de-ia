@@ -79,6 +79,7 @@ body {
   letter-spacing: -0.5px;
 }
 .nav__logo span { color: var(--accent); }
+.nav__logo-img { height: 36px; width: auto; object-fit: contain; }
 .nav__links {
   display: flex;
   align-items: center;
@@ -165,6 +166,14 @@ body {
   height: 340px;
   background: radial-gradient(circle, rgba(124,58,237,0.35) 0%, transparent 70%);
   border-radius: 50%;
+}
+.hero__photo {
+  position: relative;
+  width: 320px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
 }
 .hero__card {
   position: relative;
@@ -334,14 +343,9 @@ body {
 .portfolio-item__img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
   transition: transform 0.4s ease;
 }
-.portfolio-item__img--1 { background: linear-gradient(135deg, #7c3aed 0%, #2563eb 100%); }
-.portfolio-item__img--2 { background: linear-gradient(135deg, #db2777 0%, #7c3aed 100%); }
-.portfolio-item__img--3 { background: linear-gradient(135deg, #0891b2 0%, #7c3aed 100%); }
-.portfolio-item__img--4 { background: linear-gradient(135deg, #16a34a 0%, #0891b2 100%); }
-.portfolio-item__img--5 { background: linear-gradient(135deg, #ea580c 0%, #db2777 100%); }
-.portfolio-item__img--6 { background: linear-gradient(135deg, #7c3aed 0%, #16a34a 100%); }
 .portfolio-item__overlay {
   position: absolute;
   inset: 0;
