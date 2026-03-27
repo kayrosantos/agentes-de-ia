@@ -1,0 +1,5 @@
+# Arquivos grandes demais para git
+site_files.tar.gz
+sql4.sql.gz
+sql5.sql.gz
+*.sql
